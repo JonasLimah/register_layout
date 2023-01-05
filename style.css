@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    
+}
+
+.container .main {
+    background-color: rgb(226, 226, 226);
+    width: 380px;
+    height: 380px;
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 40px;
+   
+    
+}
+.container .main label{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container .main label table{
+   
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .main label table input {
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+.container  button {
+    width: 200px;
+    margin-left: 90px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s all linear;
+}
+.container  button:hover {
+    opacity: 0.70;
+    cursor: pointer;
+    color: #fff;
+}
+.container .main .terms {
+    margin-top: 5px;
+    font-size: 18px;
+}
